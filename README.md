@@ -65,6 +65,6 @@ As explained [here](https://dortania.github.io/OpenCore-Post-Install/misc/rtc.ht
 
 ## To Dos
 
-- [ ] Update to OpenCore 0.6.0
+- [x] Update to OpenCore 0.6.0
 - [x] Proper USB Mapping
 - [x] Fix color banding
