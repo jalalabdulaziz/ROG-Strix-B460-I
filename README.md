@@ -18,8 +18,9 @@
 
 ## Software
 
-- **OS:** MacOS Catalina 10.15.5 (Updated to 10.15.6)
-- **Bootloader:** OpenCore 0.5.9
+- **OS:** MacOS Big Sur 11.1 (Updated to 11.2.1)
+- **Bootloader:** OpenCore 0.6.6
+- **SMBIOS:** iMacPro1,1
 
 ## BIOS Settings
 
@@ -59,12 +60,12 @@ I came across this issue with this build even though I didn't get this issue wit
 ### BIOS POSTed in safe mode
 As explained [here](https://dortania.github.io/OpenCore-Post-Install/misc/rtc.html#finding-our-bad-rtc-region), the solution to use the boot-arg `rtcfx_exclude=00-FF`
 
+Note: The fix above does not work in macOS Big Sur.
+
 ## Guides & Useful Links
 
 - [OpenCore Vanilla Desktop Guide](https://dortania.github.io/OpenCore-Install-Guide/)
 
 ## To Dos
 
-- [x] Update to OpenCore 0.6.0
-- [x] Proper USB Mapping
-- [x] Fix color banding
+- [ ] Setup OpenCanopy

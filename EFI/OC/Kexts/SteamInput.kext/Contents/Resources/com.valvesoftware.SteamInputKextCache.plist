@@ -1,0 +1,20 @@
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.valvesoftware.SteamInputKextCache</string>
+	<key>KeepAlive</key>
+	<false/>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>UserName</key>
+	<string>root</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/Library/Extensions/SteamInput.kext/Contents/Resources/KextCache.sh</string>
+	</array>
+	<key>StandardErrorPath</key>
+	<string>/dev/null</string>
+	<key>StandardOutPath</key>
+	<string>/dev/null</string>
+</dict>
+</plist>
